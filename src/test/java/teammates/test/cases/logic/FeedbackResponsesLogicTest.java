@@ -50,7 +50,7 @@ public class FeedbackResponsesLogicTest extends BaseComponentTestCase {
         printTestClassHeader();
         removeAndRestoreTypicalDataBundle();
         removeAndRestoreDataBundle(specialCharBundle);
-        removeAndRestoreDataBundle(questionTypeBundle);
+        removeAndRestoreDataBundle(loadDataBundle("/FeedbackSessionQuestionTypeTest.json"));
     }
     
     @Test
